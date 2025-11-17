@@ -1,0 +1,3 @@
+xvlog ./tb_clk_generator.v
+xelab tb_clk_generator -debug wave -s tb_clk_generator
+xsim tb_clk_generator -gui -wdb simulate_xsim_tb_clk_generator.wdb 

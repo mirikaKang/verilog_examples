@@ -1,0 +1,3 @@
+xvlog ./tb_d_ff_module.v ./d_ff_module.v
+xelab tb_d_ff_module -debug wave -s tb_d_ff_module
+xsim tb_d_ff_module -gui -wdb simulate_tb_d_ff.wdb
